@@ -1,9 +1,9 @@
 table {
-    background-color: black;
+    border: solid 2px red;
+    background-color:;
 }
 
-th {
-    border: 1px;
+table tr th {
+    border: solid 1px;
     border-color: black;
-    background-color: black;
 }
