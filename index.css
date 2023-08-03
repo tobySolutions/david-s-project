@@ -1,9 +1,13 @@
 table {
     border: solid 2px red;
-    background-color:;
 }
 
 table tr th {
     border: solid 1px;
     border-color: black;
+}
+
+img {
+    width: 60%;
+    height: auto;
 }
