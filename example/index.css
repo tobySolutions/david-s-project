@@ -58,15 +58,19 @@ body {
 }
 
 table {
-    border: solid 1px;
+    /* border: solid 1px;
     border-left: 0;
-    border-right: 0;
+    border-right: 0; */
     width: 100%;
-    background-color: black;
+border-collapse: collapse;
 }
 
-.table-2 {
-    width 
+.table-2 .th-1 {
+    width: 86%;
+}
+
+.table-2 .th-2 {
+    background-color: black;
 }
 
 
@@ -112,10 +116,14 @@ p {
     background-color: white;
     }
 
+/* tr {
+    border-color: solid 1px black;
+} */
+
 th {
     background-color: white;
     width: 25%;
-    border: solid 2px white;
+    border: 1px solid black;
 }
 
 
@@ -126,6 +134,6 @@ th {
 }
 
 img {
-    width: 60%;
+    width: 15px;
     height: auto;
 }
