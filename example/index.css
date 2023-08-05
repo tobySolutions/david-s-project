@@ -74,6 +74,22 @@ table {
 border-collapse: collapse;
 }
 
+.table-0 .th-1 {
+    border-bottom: 0;
+    border-right: 0;
+}
+
+.table-0 .th-2 {
+    border-left: 0;
+    border-bottom: 0;
+    align-items: end;
+}
+
+.table-1 .th-1 {
+width: 82%;
+border-top: 0;
+}
+
 .table-2 .th-1 {
     width: 82%;
 }
@@ -90,7 +106,7 @@ h1 {
 
 .h1-1 {
     margin-left: 100px;
-    margin-bottom: 15px;
+    
 }
 
 
